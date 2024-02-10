@@ -7,14 +7,14 @@ padding: 0;
 body {
 
     background: #333;
-    color: #fff; 
+    color: black; 
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     
 }
 img{
     background-size: auto;
-    max-width: 150px;
+    max-width: 100%;
 }
 .container{
 max-width: 1512px;
@@ -30,10 +30,11 @@ margin-inline:auto;
     gap: 20px;
     }
 .portfolio > div {
-    background:orange ;
+    background: #A5B9B9 ;
     padding: 29px;
     display: grid;
     align-content: flex-end;
+    
 }
     
     .portfolio-1 { 
@@ -75,7 +76,7 @@ margin-inline:auto;
 
         }
         .products > div {
-            background:orange ;
+            background:#F8F8F8 ;
             padding: 29px;
             display: grid;
             align-content: flex-end;
