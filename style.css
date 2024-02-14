@@ -26,15 +26,24 @@ margin-inline:auto;
 .portfolio {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
     gap: 20px;
     }
 .portfolio > div {
-    background: #A5B9B9 ;
-    padding: 29px;
+    background: #ffffff ;
+    padding: 10px;
     display: grid;
     align-content: flex-end;
+    margin: 10px;
+    overflow: hidden;
     
+    
+}img:hover{
+transform: rotate(-8deg)
+scale(0.9);
+transition: 0.8s;
+
+
 }
     
     .portfolio-1 { 
